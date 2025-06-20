@@ -28,6 +28,6 @@ if __name__ == "__main__":
 
     if espacio < umbral:
         mensaje = f"Atencion: Solo queda {espacio: .2f}% de espacio libre en C:."
-        enviar_alerta("brandonjvergara.18@gmail.com", mensaje)
+        enviar_alerta("", mensaje) #entre comillas el correo 
     else:
         print(f"Espacio suficiente: {espacio: .2f}% libre en C:.")
