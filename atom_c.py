@@ -8,8 +8,8 @@ def verificar_espacio(drive="C:\\"):
     return porcentaje_libre
 #Paso 2: Enviar correo
 def enviar_alerta(destinatario, mensaje):
-    remitente = "braanvergara@gmail.com"
-    contraseña = "vnjn qxsv uujt iici" #Clave app segura
+    remitente = "" #Correo elecronico del remitente
+    contraseña = "" #Clave app segura
 
     msg = MIMEText(mensaje)
     msg["Subject"] = "Alerta: Espacio en disco bajo"
