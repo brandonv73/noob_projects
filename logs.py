@@ -27,7 +27,7 @@ def analizar_log(ruta_carpeta):
 
     return conteo, eventos_relev
 
-def guardar_results(eventos, carpeta_salida="C:\\Users\\Brand\\PycharmProjects\\Learning\\Scripts\\log reports"):
+def guardar_results(eventos, carpeta_salida=""):
     os.makedirs(carpeta_salida, exist_ok=True)
     fecha = datetime.now().strftime("%d-%m-%Y")
     nombre_archivo = f"logs_filters_{fecha}.txt"
